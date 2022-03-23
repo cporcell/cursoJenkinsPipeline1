@@ -1,5 +1,8 @@
 // Declarativa: Es más cómoda.. más guiada, menos flexible (practicamente lo que se hace en Jenkins)
 pipeline {
+    
+    agent any;
+    
     stages {
         stage('Compilacion') {
             steps {
