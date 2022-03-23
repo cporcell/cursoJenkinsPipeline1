@@ -1,5 +1,5 @@
 // Declarativa: Es más cómoda.. más guiada, menos flexible (practicamente lo que se hace en Jenkins)
-pipeline ¨{
+pipeline {
     stages {
         stage('Compilacion') {
             steps {
