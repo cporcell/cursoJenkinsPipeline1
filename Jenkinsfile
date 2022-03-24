@@ -223,8 +223,6 @@ pipeline {
             steps {
                 echo 'En un repo de artefactos: NEXUS, ARTIFACTORY, REGISTRY DE IMAGENES DE DOCKER'
                 sh 'echo HOLA !!!!'
-                
-                archiveArtifacts allowEmptyArchive: true, artifacts: 'target/*.war', followSymlinks: false
                 sh '''
                     pwd
                     clear
