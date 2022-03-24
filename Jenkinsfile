@@ -21,7 +21,7 @@ pipeline {
                 // Lo ejecutas
                 // Accedo directamente al API de Jenkins
 //            }
-        }
+//        }
         stage('1-Compilación') {
             steps {
                 echo 'Voy a compilar:'
