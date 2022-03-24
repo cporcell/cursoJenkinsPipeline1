@@ -225,7 +225,6 @@ pipeline {
                 sh 'echo HOLA !!!!'
                 sh '''
                     pwd
-                    clear
                     whoami
                 '''
             }
