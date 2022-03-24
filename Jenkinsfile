@@ -12,7 +12,7 @@ pipeline {
 
     stages {
         stage('0-Inicialización') {
-            script {
+//        script {
                 // Vete a otro trajabo Jenkins: Libreria 17
                 // Recorre todos los builds que haya habido
                 // En el ultimo que se haya ejecutado correctamente 
@@ -20,7 +20,7 @@ pipeline {
                 // Lo copias en el proyecto en esta ruta
                 // Lo ejecutas
                 // Accedo directamente al API de Jenkins
-            }
+//            }
         }
         stage('1-Compilación') {
             steps {
